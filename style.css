@@ -1,7 +1,8 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 1000px; /* fixed width */
+    margin: 0 auto; /* center the container */
 }
 
 body {
