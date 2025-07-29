@@ -5,21 +5,19 @@
 }
 
 body {
+    max-width: 700px;
+    /* Maximum content width on large screens */
+    width: 100%;
+    /* Allow shrinking on smaller screens */
+    margin: 0 auto;
+    /* Center horizontally */
+    padding: 96px 24px;
+    /* Top/bottom padding + side padding */
     background-color: #000000;
     color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 424px;
-    margin-right: 424px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 96px;
-    padding-bottom: 96px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    zoom: 1 !important;
-    transform: scale(1) !important;
 }
 
 div {
